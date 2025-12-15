@@ -25,8 +25,8 @@ End-to-End 파이프라인 구축
 
 ```mermaid
 graph LR
-    A[기상청 API<br/>(ASOS 관측)] -->|Auto Collect| C(Data Collector)
-    B[전력거래소 CSV<br/>(전력 소비 실적)] -->|Load Files| C
+    A["기상청 API<br/>(ASOS 관측)"] -->|Auto Collect| C(Data Collector)
+    B["전력거래소 CSV<br/>(전력 소비 실적)"] -->|Load Files| C
     C --> D{Data Preprocessing}
     D -->|Time Sync & Merge| E[Feature Engineering]
     E -->|Rolling Mean / WetBulb / Discomfort Idx| F[Dataset Construction]
