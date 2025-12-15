@@ -119,3 +119,5 @@ Metric: MAPE (Mean Absolute Percentage Error)
 Score: 4.49%
 
 Visualization: 예측 결과 그래프는 forecast_plot_{current_time}.png로 저장.
+
+<img width="1400" height="700" alt="Image" src="https://github.com/user-attachments/assets/71a2a5ab-6b1a-439c-bdcb-96ff0fd0ea4a" />
